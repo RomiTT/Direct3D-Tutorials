@@ -187,8 +187,12 @@
     <ClCompile Include="TextureClass.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="light_ps.hlsl" />
-    <FxCompile Include="light_vs.hlsl" />
+    <None Include="light_ps.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="light_vs.hlsl">
+      <FileType>Document</FileType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="data\plane01.txt" />

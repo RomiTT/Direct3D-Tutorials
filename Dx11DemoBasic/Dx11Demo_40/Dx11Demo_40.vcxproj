@@ -206,8 +206,12 @@
     <Text Include="data\sphere.txt" />
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="depth_ps.hlsl" />
-    <FxCompile Include="depth_vs.hlsl" />
+    <None Include="depth_ps.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="depth_vs.hlsl">
+      <FileType>Document</FileType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="shadow_ps.hlsl" />

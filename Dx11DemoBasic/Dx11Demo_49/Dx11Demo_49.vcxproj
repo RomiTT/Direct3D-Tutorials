@@ -200,12 +200,24 @@
     <ClCompile Include="treeclass.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="depth_ps.hlsl" />
-    <FxCompile Include="depth_vs.hlsl" />
-    <FxCompile Include="shadow_ps.hlsl" />
-    <FxCompile Include="shadow_vs.hlsl" />
-    <FxCompile Include="transparentdepth_ps.hlsl" />
-    <FxCompile Include="transparentdepth_vs.hlsl" />
+    <None Include="depth_ps.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="depth_vs.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="shadow_ps.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="shadow_vs.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="transparentdepth_ps.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="transparentdepth_vs.hlsl">
+      <FileType>Document</FileType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="data\dirt.dds" />

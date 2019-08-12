@@ -188,8 +188,12 @@
     <ClCompile Include="TextureShaderClass.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="texture_ps.hlsl" />
-    <FxCompile Include="texture_vs.hlsl" />
+    <None Include="texture_ps.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="texture_vs.hlsl">
+      <FileType>Document</FileType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="glass_ps.hlsl" />

@@ -202,8 +202,12 @@
     <None Include="light_vs.hlsl" />
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="texture_ps.hlsl" />
-    <FxCompile Include="texture_vs.hlsl" />
+    <None Include="texture_ps.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="texture_vs.hlsl">
+      <FileType>Document</FileType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="data\cube.txt" />

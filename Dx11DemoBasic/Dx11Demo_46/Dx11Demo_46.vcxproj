@@ -209,12 +209,24 @@
     <None Include="glowmap_vs.hlsl" />
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="horizontalblur_ps.hlsl" />
-    <FxCompile Include="horizontalblur_vs.hlsl" />
-    <FxCompile Include="texture_ps.hlsl" />
-    <FxCompile Include="texture_vs.hlsl" />
-    <FxCompile Include="verticalblur_ps.hlsl" />
-    <FxCompile Include="verticalblur_vs.hlsl" />
+    <None Include="horizontalblur_ps.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="horizontalblur_vs.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="texture_ps.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="texture_vs.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="verticalblur_ps.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="verticalblur_vs.hlsl">
+      <FileType>Document</FileType>
+    </None>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
